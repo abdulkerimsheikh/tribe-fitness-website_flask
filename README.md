@@ -1,5 +1,5 @@
 <h1>**Tribe Fitness Website**</h1>
-<li>A responsive web application for <b>Tribe Fitness</b>, built with HTML, CSS, and integrated with flask.</li>
+<li>A responsive web application for <b>Tribe Fitness</b>, built with <b>HTML & CSS</b> and also integrated with <b>flask</b>.</li>
 <li>This project creates an engaging online presence for Tribe Fitness, allowing users to explore services, and view membership plans.</li>
 
 <h3>**Features**</h3>
