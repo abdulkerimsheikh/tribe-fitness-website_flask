@@ -38,8 +38,7 @@
 │   ├── css/  
 │   ├── images/  
 │  
-├── templates/  
-│   ├── base.html  
+├── templates/    
 │   ├── home.html  
 │   ├── about.html  
 │   ├── membership.html  
