@@ -20,15 +20,15 @@
 
 <h4>**Steps**</h4>
 <li>Run this command to clone the repository:</li> 
-<ul>git clone https://github.com/abdulkerimsheikh/tribe-fitness-website_flask.git</ul> 
+<ul>*git clone https://github.com/abdulkerimsheikh/tribe-fitness-website_flask.git</ul> 
 <li>Once cloning is complete, run this command to navigate into the project directory:</li> 
-<ul>cd tribe-fitness-website_flask</ul>  
+<ul>*cd tribe-fitness-website_flask</ul>  
 <li>Install dependencies:</li> 
 <li>pip install Flask==2.2.3</li> 
 <li>Run the Flask application:</li> 
-<ul>python app.py</ul>   
+<ul>*python app.py</ul>   
 <li>Open your browser and visit:</li> 
-<ul>http://127.0.0.1:5000/</ul> 
+<ul>*http://127.0.0.1:5000/</ul> 
 
 <h3>**File Structure**</h3>
 
