@@ -20,15 +20,15 @@ This project creates an engaging online presence for Tribe Fitness, allowing use
 
 <h4>**Steps**</h4>
 <li>Run this command to clone the repository:</li> 
-git clone https://github.com/abdulkerimsheikh/tribe-fitness-website_flask.git 
+* git clone https://github.com/abdulkerimsheikh/tribe-fitness-website_flask.git 
 <li>Once cloning is complete, run this command to navigate into the project directory:</li> 
-cd tribe-fitness-website_flask  
+* cd tribe-fitness-website_flask  
 <li>Install dependencies:</li> 
 <li>pip install Flask==2.2.3</li> 
 <li>Run the Flask application:</li> 
-python app.py  
+* python app.py  
 <li>Open your browser and visit:</li> 
-http://127.0.0.1:5000/
+* http://127.0.0.1:5000/
 
 <h3>**File Structure**</h3>
 
@@ -47,6 +47,6 @@ http://127.0.0.1:5000/
 ├── app.py  
   
 <h3>**Future Enhancements**</h3>
-* Add user authentication for members.
-* Integrate a contact form with email notifications.
-* Include a blog section for fitness tips and updates.
+<li>Add user authentication for members.</li>
+<li>Integrate a contact form with email notifications.</li>
+<li>Include a blog section for fitness tips and updates.</li>
