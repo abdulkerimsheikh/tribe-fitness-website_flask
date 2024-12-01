@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>TRIBE FITNESS</h1>
+            </div>
+            <ul>
+                <li>
+                    <a href="{{ url_for('home') }}">HOME</a>
+                    <a href="{{ url_for('about') }}">ABOUT US</a>
+                    <a href="{{ url_for('membership') }}">MEMBERSHIP</a>
+                    <button onclick="window.location.href='{{ url_for('membership') }}'">Become a member</button>
+                </li>
+            </ul>
+        </nav>
+        <div class="program">
+            <div class="head">
+                <h1>Our <span>Program's</span></h1>
+            </div>
+            <div class="ourProgram">
+                <div class="crd">
+                    <img src="{{ url_for('static', filename='images/cardio.jpg') }}" alt="Cardio">
+                    <h3>Cardio</h3>
+                </div>
+                <div class="crd">
+                    <img src="{{ url_for('static', filename='images/group-training.jpg') }}" alt="Group Training">
+                    <h3>Group Training</h3>
+                </div>
+                <div class="crd">
+                    <img src="{{ url_for('static', filename='images/personal-training.jpg') }}" alt="Personal Training">
+                    <h3>Personel Training</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

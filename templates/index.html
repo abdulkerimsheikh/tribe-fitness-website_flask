@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>TRIBE FITNESS</h1>
+            </div>
+            <ul>
+                <li>
+                    <a href="{{ url_for('home') }}">HOME</a>
+                    <a href="{{ url_for('about') }}">ABOUT US</a>
+                    <a href="{{ url_for('membership') }}">MEMBERSHIP</a>
+                    <button onclick="window.location.href='{{ url_for('membership') }}'">Become a member</button>
+                </li>
+            </ul>
+        </nav>
+        <div class="home">
+            <div class="homeText">
+                <h1>Empower Your Journey</h1>
+                <h3>Empower Your Journey" is an excellent choice</h3>
+                <p>It's about embracing challenges, unlocking your potential, and staying committed to a healthier,
+                    stronger you.<br> With every step, you are not just working out—you are transforming your life.
+                </p>
+                <button>Become a member</button>
+            </div>
+            <img src="{{ url_for('static', filename='images/men.png') }}" alt="Man working out">
+        </div>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>

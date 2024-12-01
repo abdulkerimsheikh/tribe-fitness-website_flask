@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>membership</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>TRIBE FITNESS</h1>
+            </div>
+            <ul>
+                <li>
+                    <a href="{{ url_for('home') }}">HOME</a>
+                    <a href="{{ url_for('about') }}">ABOUT US</a>
+                    <a href="{{ url_for('membership') }}">MEMBERSHIP</a>
+                    <button onclick="window.location.href='{{ url_for('membership') }}'">Become a member</button>
+
+                </li>
+            </ul>
+        </nav>
+        <div class="plans">
+            <div class="head">
+                <h1>Our <span>Plan's</span></h1>
+            </div>
+            <div class="ourPlans">
+                <div class="card">
+                    <i class="fa-solid fa-bookmark"></i>
+                    <h3>Basic Pacakage</h3>
+                    <h1>30 Day in $10</h1>
+                    <p>No personal Trainer</p>
+                    <p>Valid for 30 Days</p>
+                    <p>Full Day Valid</p>
+                    <p>lorem ipsum</p>
+                    <p>lorem ipsum</p>
+                    <button>Buy Plan</button>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    <h3>Premium Pacakage</h3>
+                    <h1>30 Day in $10</h1>
+                    <p>No personal Trainer</p>
+                    <p>Valid for 30 Days</p>
+                    <p>Full Day Valid</p>
+                    <p>lorem ipsum</p>
+                    <p>lorem ipsum</p>
+                    <button>Buy Plan</button>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-diamond"></i>
+                    <h3>Diamond Pacakage</h3>
+                    <h1>30 Day in $10</h1>
+                    <p>No personal Trainer</p>
+                    <p>Valid for 30 Days</p>
+                    <p>Full Day Valid</p>
+                    <p>lorem ipsum</p>
+                    <p>lorem ipsum</p>
+                    <button>Buy Plan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
