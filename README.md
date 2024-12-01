@@ -3,11 +3,11 @@
 <li>This project creates an engaging online presence for Tribe Fitness, allowing users to explore services, and view membership plans.</li>
 
 <h3>**Features**</h3>
-<li>Home Page: Highlights the fitness center’s mission, services, and special offerings.</li>  
-<li>About Us Page: Details about Tribe Fitness, its team, facilities, and vision.</li>   
-<li>Membership Page: Displays flexible membership options with detailed pricing and benefits.</li>   
-<li>Dynamic Routing: Powered by Flask for seamless navigation between pages.</li>   
-<li>Responsive Design: Optimized for desktop.</li>   
+<li><b>Home Page:</b> Highlights the fitness center’s mission, services, and special offerings.</li>  
+<li><b>About Us Page:</b> Details about Tribe Fitness, its team, facilities, and vision.</li>   
+<li><b>Membership Page:</b> Displays flexible membership options with detailed pricing and benefits.</li>   
+<li><b>Dynamic Routing:</b> Powered by Flask for seamless navigation between pages.</li>   
+<li><b>Responsive Design:</b> Optimized for desktop.</li>   
 
 <h3>**Technologies Used**</h3>
 <li>Frontend: HTML, CSS</li> 
