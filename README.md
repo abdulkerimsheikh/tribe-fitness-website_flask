@@ -1,6 +1,6 @@
 <h1>**Tribe Fitness Website**</h1>
-A responsive web application for **Tribe Fitness**, built with HTML, CSS, and integrated with flask.
-This project creates an engaging online presence for Tribe Fitness, allowing users to explore services, and view membership plans.
+<li>A responsive web application for <b>Tribe Fitness</b>, built with HTML, CSS, and integrated with flask.</li>
+<li>This project creates an engaging online presence for Tribe Fitness, allowing users to explore services, and view membership plans.</li>
 
 <h3>**Features**</h3>
 <li>Home Page: Highlights the fitness center’s mission, services, and special offerings.</li>  
@@ -20,15 +20,15 @@ This project creates an engaging online presence for Tribe Fitness, allowing use
 
 <h4>**Steps**</h4>
 <li>Run this command to clone the repository:</li> 
-* git clone https://github.com/abdulkerimsheikh/tribe-fitness-website_flask.git 
+*  git clone https://github.com/abdulkerimsheikh/tribe-fitness-website_flask.git 
 <li>Once cloning is complete, run this command to navigate into the project directory:</li> 
-* cd tribe-fitness-website_flask  
+*  cd tribe-fitness-website_flask  
 <li>Install dependencies:</li> 
 <li>pip install Flask==2.2.3</li> 
 <li>Run the Flask application:</li> 
-* python app.py  
+*  python app.py  
 <li>Open your browser and visit:</li> 
-* http://127.0.0.1:5000/
+*  http://127.0.0.1:5000/
 
 <h3>**File Structure**</h3>
 
