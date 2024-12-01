@@ -3,15 +3,15 @@ A responsive web application for **Tribe Fitness**, built with _HTML, CSS_, and 
 This project creates an engaging online presence for Tribe Fitness, allowing users to explore services, and view membership plans.
 
 <h3>**Features**</h3>
-* Home Page: Highlights the fitness center’s mission, services, and special offerings.
-* About Us Page: Details about Tribe Fitness, its team, facilities, and vision.
-* Membership Page: Displays flexible membership options with detailed pricing and benefits.
-* Dynamic Routing: Powered by Flask for seamless navigation between pages.
-* Responsive Design: Optimized for desktop.
+* Home Page: Highlights the fitness center’s mission, services, and special offerings.  
+* About Us Page: Details about Tribe Fitness, its team, facilities, and vision.  
+* Membership Page: Displays flexible membership options with detailed pricing and benefits.  
+* Dynamic Routing: Powered by Flask for seamless navigation between pages.  
+* Responsive Design: Optimized for desktop.  
 
 <h3>**Technologies Used**</h3>
-* Frontend: HTML, CSS
-* Integrated: Flask (Python)
+* Frontend: HTML, CSS  
+* Integrated: Flask (Python)  
 
 <h3>**Installation **</h3>
 <h5>**Prerequisites**</h5>
